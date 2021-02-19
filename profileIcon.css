@@ -1,0 +1,35 @@
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+  background: #252525;
+}
+
+#circle img{
+    background: white;
+    border-radius: 100%;
+    border: solid white 1px;
+    width: 200px;
+    height: 200px;
+   background-repeat:no-repeat;
+   background-size:200px 200px;
+}
+#online {
+  background:#00FF00;
+  width: 18px;
+  height: 18px;
+  border-radius: 100%;
+  position: relative;
+  bottom: 80px;
+  right: 40px;
+}
